@@ -20,6 +20,7 @@ import { IoDiamond } from "react-icons/io5";
 import CategoryBox from "../CategoryBox";
 import { usePathname, useSearchParams } from "next/navigation";
 
+// 這裡的這個 export 讓其他組件也能使用 但就不是 default 的 export
 export const categories = [
 	{
 		label: "Beach",
